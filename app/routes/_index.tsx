@@ -9,40 +9,26 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="font-sans p-4">
-      <h1 className="text-3xl">Welcome to Remix</h1>
-      <ul className="list-disc mt-4 pl-6 space-y-2">
-        <li>
-          <a
-            className="text-blue-700 underline visited:text-purple-900"
-            target="_blank"
-            href="https://remix.run/start/quickstart"
-            rel="noreferrer"
-          >
-            5m Quick Start
-          </a>
-        </li>
-        <li>
-          <a
-            className="text-blue-700 underline visited:text-purple-900"
-            target="_blank"
-            href="https://remix.run/start/tutorial"
-            rel="noreferrer"
-          >
-            30m Tutorial
-          </a>
-        </li>
-        <li>
-          <a
-            className="text-blue-700 underline visited:text-purple-900"
-            target="_blank"
-            href="https://remix.run/docs"
-            rel="noreferrer"
-          >
-            Remix Docs
-          </a>
-        </li>
-      </ul>
+    <div className="container text-center my-5">
+      <header>
+        <h1 className="display-4">Remix Calculator API</h1>
+        <p className="lead">
+          Welcome to the Remix Calculator API! This application provides basic mathematical operations via a REST API.
+        </p>
+      </header>
+      <section>
+        <h2>How to Use</h2>
+        <p>To perform a calculation, send a request to one of the following API endpoints:</p>
+        <ul className="list-group">
+          <li className="list-group-item"><strong>Addition:</strong> <code>/api/add?num1=3&num2=5</code></li>
+          <li className="list-group-item"><strong>Subtraction:</strong> <code>/api/subtract?num1=10&num2=4</code></li>
+          <li className="list-group-item"><strong>Multiplication:</strong> <code>/api/multiply?num1=6&num2=7</code></li>
+          <li className="list-group-item"><strong>Division:</strong> <code>/api/divide?num1=20&num2=4</code></li>
+        </ul>
+      </section>
+      <footer className="mt-5">
+        <p>&copy; 2024 Remix Calculator API. All rights reserved.</p>
+      </footer>
     </div>
   );
 }
