@@ -1,10 +1,5 @@
-import {
-  Links,
-  Meta,
-  Outlet,
-  Scripts,
-  ScrollRestoration,
-} from "@remix-run/react";
+import { Links, Meta, Outlet, Scripts, ScrollRestoration } from "@remix-run/react";
+
 import "./tailwind.css";
 import bootstrap from "bootstrap/dist/css/bootstrap.min.css";
 
