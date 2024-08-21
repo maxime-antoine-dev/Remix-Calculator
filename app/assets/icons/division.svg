@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.149" y1="0.894" x2="0.869" y2="0.178" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#bf0202"/>
+      <stop offset="1" stop-color="#f77"/>
+    </linearGradient>
+  </defs>
+  <g id="Groupe_1" data-name="Groupe 1" transform="translate(-205.9 -74)">
+    <path id="Icon_fa-solid-circle-minus" data-name="Icon fa-solid-circle-minus" d="M16,32A16,16,0,1,0,0,16,16,16,0,0,0,16,32ZM11.5,14.5h9a1.5,1.5,0,0,1,0,3h-9a1.5,1.5,0,0,1,0-3Z" transform="translate(205.9 74)" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="2" cy="2" r="2" transform="translate(220 82)" fill="#fff"/>
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="2" cy="2" r="2" transform="translate(220 94)" fill="#fff"/>
+  </g>
+</svg>

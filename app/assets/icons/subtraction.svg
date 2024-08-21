@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.131" y1="0.94" x2="1" y2="0.126" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#02bf5f"/>
+      <stop offset="1" stop-color="#77ffba"/>
+    </linearGradient>
+  </defs>
+  <path id="Icon_fa-solid-circle-minus" data-name="Icon fa-solid-circle-minus" d="M16,32A16,16,0,1,0,0,16,16,16,0,0,0,16,32ZM11.5,14.5h9a1.5,1.5,0,0,1,0,3h-9a1.5,1.5,0,0,1,0-3Z" fill="url(#linear-gradient)"/>
+</svg>
