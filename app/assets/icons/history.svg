@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.154" y1="0.901" x2="0.912" y2="0.177" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="1" stop-color="#9b9b9b"/>
+    </linearGradient>
+  </defs>
+  <g id="Groupe_6" data-name="Groupe 6" transform="translate(-141 -30)">
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="16" cy="16" r="16" transform="translate(141 30)" fill="url(#linear-gradient)"/>
+    <path id="Icon_feather-list" data-name="Icon feather-list" d="M8.836,9H20.111M8.836,14.2H20.111m-11.275,5.2H20.111M4.5,9h.009M4.5,14.2h.009m-.009,5.2h.009" transform="translate(144.694 32)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

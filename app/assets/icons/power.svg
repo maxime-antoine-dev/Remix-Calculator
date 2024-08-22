@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.154" y1="0.901" x2="0.912" y2="0.177" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5e14cb"/>
+      <stop offset="1" stop-color="#c995fd"/>
+    </linearGradient>
+  </defs>
+  <g id="Groupe_4" data-name="Groupe 4" transform="translate(-141 -29)">
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="16" cy="16" r="16" transform="translate(141 29)" fill="url(#linear-gradient)"/>
+    <path id="Icon_feather-x" data-name="Icon feather-x" d="M17.039,9,9,17.039M9,9l8.039,8.039" transform="translate(141.981 33.981)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Icon_fa-solid-y" data-name="Icon fa-solid-y" d="M.789,2.411a.472.472,0,0,0-.606-.089.354.354,0,0,0-.1.534L2.176,5.44V7.233a.411.411,0,0,0,.435.383.411.411,0,0,0,.435-.383V5.44L5.14,2.856a.355.355,0,0,0-.1-.534.474.474,0,0,0-.606.089L2.611,4.657Z" transform="translate(161.308 35.364)" fill="#fff" stroke="#fff" stroke-width="1"/>
+  </g>
+</svg>

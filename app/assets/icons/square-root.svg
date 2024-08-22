@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.154" y1="0.901" x2="0.912" y2="0.177" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffb858"/>
+      <stop offset="1" stop-color="#fdf595"/>
+    </linearGradient>
+  </defs>
+  <g id="Groupe_3" data-name="Groupe 3" transform="translate(-141 -30)">
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="16" cy="16" r="16" transform="translate(141 30)" fill="url(#linear-gradient)"/>
+    <path id="Icon_fa-solid-square-root-variable" data-name="Icon fa-solid-square-root-variable" d="M9.779,3.845A2.216,2.216,0,0,1,11.9,2.25h6.92a1.107,1.107,0,1,1,0,2.215H11.9L8.26,16.956a1.106,1.106,0,0,1-2.017.249l-3.557-6.1H1.107a1.107,1.107,0,1,1,0-2.215H2.685A2.214,2.214,0,0,1,4.6,9.994l2.256,3.869L9.779,3.845Zm3.834,5.374a1.109,1.109,0,0,1,1.567,0l1.429,1.429,1.433-1.433a1.108,1.108,0,1,1,1.567,1.567l-1.433,1.433,1.433,1.433a1.108,1.108,0,0,1-1.567,1.567l-1.433-1.433-1.433,1.433a1.108,1.108,0,0,1-1.567-1.567l1.433-1.433-1.433-1.433a1.109,1.109,0,0,1,0-1.567Z" transform="translate(146.067 37.75)" fill="#fff"/>
+  </g>
+</svg>
