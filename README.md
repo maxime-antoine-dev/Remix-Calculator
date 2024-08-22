@@ -1,5 +1,7 @@
 # Remix Calculator API
 
+![image](https://github.com/user-attachments/assets/660c8485-0e49-44c4-a3f8-7b5451540479)
+
 ## Description
 
 The **Remix Calculator API** project is a REST API that allows users to perform mathematical operations such as addition, subtraction, multiplication, division and more.
