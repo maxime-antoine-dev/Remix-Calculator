@@ -57,7 +57,6 @@ The project can be deployed on platforms like Vercel or Netlify, which provide s
 ```bash
 git clone https://github.com/maxime-antoine-dev/Remix-Calculator.git
 cd remix-calculator-api
-Install dependencies:
 ```
 
 2. **Install dependencies:**:
