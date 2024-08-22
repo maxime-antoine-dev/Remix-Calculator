@@ -1,25 +1,38 @@
 import { json, LoaderFunctionArgs } from "@remix-run/node";
+import { PrismaClient } from '@prisma/client';
+
+const prisma = new PrismaClient();
 
 export async function loader({
   request,
 }: LoaderFunctionArgs) {
   
   const url = new URL(request.url);
-  const aStr = url.searchParams.get('a');
-  const bStr = url.searchParams.get('b');
+  const xStr = url.searchParams.get('x');
+  const yStr = url.searchParams.get('y');
 
-  const a = Number(aStr);
-  const b = Number(bStr);
+  const x = Number(xStr);
+  const y = Number(yStr);
 
-  if (isNaN(a) || isNaN(b)) {
-    return json({ error: 'Invalid parameters. Both a and b should be numbers.' }, { status: 400 });
+  if (isNaN(x) || isNaN(y)) {
+    return json({ error: 'Invalid parameters. Both x and y should be numbers.' }, { status: 400 });
   }
 
-  if (b === 0) {
+  if (y === 0) {
     return json({ error: 'Invalid parameters. The divisor should not be 0.' }, { status: 400 });
   }
 
-  const result = a / b;
+  const result = x / y;
+
+  // Save in database
+  await prisma.operation.create({
+    data: {
+      type: 'division',
+      x: x,
+      y: y,
+      result: result,
+    },
+  });
 
   return json({ result });
 }

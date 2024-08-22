@@ -31,7 +31,7 @@ export default function Index() {
             </div>
             <div>
               <h3 className="text-lg font-medium text-gray-800">Addition</h3>
-              <p className="text-sm text-gray-600"><code>/api/add?a=3&b=5</code></p>
+              <p className="text-sm text-gray-600"><code>/api/add?x=3&y=5</code></p>
             </div>
           </div>
           <div className="flex items-center space-x-4 p-4 border border-gray-200 rounded-lg shadow-sm bg-gray-50">
@@ -40,7 +40,7 @@ export default function Index() {
             </div>
             <div>
               <h3 className="text-lg font-medium text-gray-800">Subtraction</h3>
-              <p className="text-sm text-gray-600"><code>/api/subtract?a=10&b=4</code></p>
+              <p className="text-sm text-gray-600"><code>/api/subtract?x=10&y=4</code></p>
             </div>
           </div>
           <div className="flex items-center space-x-4 p-4 border border-gray-200 rounded-lg shadow-sm bg-gray-50">
@@ -49,7 +49,7 @@ export default function Index() {
             </div>
             <div>
               <h3 className="text-lg font-medium text-gray-800">Multiplication</h3>
-              <p className="text-sm text-gray-600"><code>/api/multiply?a=6&b=7</code></p>
+              <p className="text-sm text-gray-600"><code>/api/multiply?x=6&y=7</code></p>
             </div>
           </div>
           <div className="flex items-center space-x-4 p-4 border border-gray-200 rounded-lg shadow-sm bg-gray-50">
@@ -58,7 +58,7 @@ export default function Index() {
             </div>
             <div>
               <h3 className="text-lg font-medium text-gray-800">Division</h3>
-              <p className="text-sm text-gray-600"><code>/api/divide?a=20&b=4</code></p>
+              <p className="text-sm text-gray-600"><code>/api/divide?x=20&y=4</code></p>
             </div>
           </div>
         </div>
